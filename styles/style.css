@@ -679,6 +679,12 @@ main {
         color: #424242;
     
     }
+    
+    .overflow-contain{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    } 
     .cover h3 {
         display: none;
     
