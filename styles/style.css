@@ -1,0 +1,307 @@
+/* --------------
+   Work Sans font
+   --------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&family=Open+Sans&family=Poppins:wght@500;700&family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-button {
+
+    margin-top: 32px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+
+}
+
+/* -------------
+   Header styles
+   -------------*/
+header {
+    width: 1920px;
+    background: #ff900e1a;
+}
+
+.h-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.container-title {
+    text-align: center;
+    width: 862px;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 30px;
+
+}
+
+.container-detail {
+    text-align: center;
+    width: 862px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+
+.banner {
+
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+/* -----------
+   Main styles
+   -----------*/
+main {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 1200px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.q-features {
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.q-feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.q-feature-title {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.q-feature-detail {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+.features-info {
+    display: flex;
+    align-items: center;
+    gap: 146px;
+    justify-content: center;
+}
+
+.feature-img {
+    width: 800px;
+    height: 1059px;
+    background-image: url('../images/architect.png');
+    background-position-x: right;
+    background-position-y: top;
+    background-repeat: no-repeat;
+
+}
+
+.features-title {
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    justify-items: center;
+}
+
+.color {
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+}
+
+.features-title h1 {
+    width: 468px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.features-details p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.feature {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.feature-info {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.feature-title h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.feature-info p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.fact-title {
+    margin-top: 20px;
+}
+
+
+.achievement-info {
+    width: 241px;
+    height: 241px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.achievement {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+
+}
+
+.image-fond h3 {
+    font-weight: 700;
+    font-size: 40px;
+    padding: 40px;
+    color: #FFFFFF;
+    width: 180px;
+    background-color: #FF900E;
+    background-position-x: left;
+    background-position-y: bottom;
+
+}
+
+
+.feature-img {
+    width: 708px;
+    height: 982px;
+    background-color: antiquewhite;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.fact-details {
+    margin-bottom: 100px;
+    width: 542px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.achievement-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.achievement-info img {
+    padding-top: 45px;
+}
+
+.achievement-info h3 {
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: -5px;
+}
+
+.achievement-info p {
+    font-size: 16px;
+    font-weight: 600px;
+    color: #727272;
+    padding-bottom: 20px;
+}
+
+
+.sponspors {
+    text-align: center;
+}
+
+.sponspors h3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+
+.sponspors p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+
+
+}
+
+.sponspor {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+}
+
+.sponspors-icon {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+footer {
+    width: 1200px;
+    height: 100px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-details {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+
+}
